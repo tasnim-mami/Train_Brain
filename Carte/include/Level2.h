@@ -10,7 +10,7 @@ class Level2
            Level2(int,int);
         void carteselectionne(int ,int) ;
         bool gagner();
-
+        bool timeout();
          int selected(int,int) ;
          int start(sf::Clock);
          bool test() ;
