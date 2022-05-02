@@ -14,7 +14,7 @@ class Level3
            Level3(int,int);
         void carteselectionne(int ,int) ;
         bool gagner();
-
+      bool timeout();
          int selected(int,int) ;
          int start(sf::Clock);
          bool test() ;
