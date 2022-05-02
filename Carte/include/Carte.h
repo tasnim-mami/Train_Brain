@@ -16,7 +16,7 @@ class Carte
           void carteselectionne(int ,int) ;
           bool gagner();
           void window_win();
-
+          bool timeout();
          int selected(int,int) ;
          int start(sf::Clock);
          bool test() ;
